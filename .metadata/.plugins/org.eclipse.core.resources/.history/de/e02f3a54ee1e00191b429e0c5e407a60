@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Registration Form</title>
+
+</head>
+ 
+<body>
+<h3>REGISTRATION FORM</h3>
+
+<table align="center">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+ 	<form action="Registrationform" method="post">
+
+<td>FIRST NAME*:</td>
+<td><input type="text" name="First_Name" >
+</td>
+</tr>
+ 
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td>LAST NAME*:</td>
+<td><input type="text" name="Last_Name" >
+
+</td>
+</tr>
+ 
+
+
+ 
+<!----- Email Id ---------------------------------------------------------->
+<tr>
+<td>EMAIL ID*:</td>
+<td><input type="text" name="Email_Id"></td>
+</tr>
+ 
+ <!----- Password ---------------------------------------------------------->
+<tr>
+<td>PASSWORD*:</td>
+<td><input type="text" name="Email_Id"></td>
+</tr> 
+
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td>MOBILE NUMBER*:</td>
+<td>
+<input type="text" name="Mobile_Number">
+
+</td>
+</tr>
+ 
+
+
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+ </form>
+</form>
+ 
+</body>
+
+</html>

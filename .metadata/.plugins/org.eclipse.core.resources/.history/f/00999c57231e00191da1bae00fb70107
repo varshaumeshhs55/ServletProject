@@ -1,0 +1,35 @@
+package com.bridgelabz.servlets;
+
+public class UserInfo {
+
+	String name;
+	String mobNO;
+	String emailId;
+	public UserInfo() {
+		super();
+		this.name = name;
+		this.mobNO = mobNO;
+		this.emailId = emailId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getMobNO() {
+		return mobNO;
+	}
+	public void setMobNO(String mobNO) {
+		this.mobNO = mobNO;
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	
+	
+	}
+

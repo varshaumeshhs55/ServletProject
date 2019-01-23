@@ -1,0 +1,25 @@
+package com.bridgelabz.servlets;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Loginservlet extends HttpServlet {
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		UserInfo userinfo=new UserInfo();
+		userinfo.setName(req.getParameter("name"));
+		userinfo.setName(req.getParameter("number"));
+		userinfo.setName(req.getParameter("email"));
+		userinfo.setName(req.getParameter("password"));
+		System.out.println(req.getParameter("name"));
+		System.out.println(req.getParameter("number"));
+		System.out.println(req.getParameter("email"));
+		System.out.println(req.getParameter("password"));
+//		System.out.println(req.getParameter("email"));
+	}
+}

@@ -1,0 +1,16 @@
+package com.bridgelabz.servlets;
+
+public class RegistrationForm {
+String firstName;
+String lastName;
+int birthDay;
+int birthMonth;
+int birthYear;
+String emailId;
+long mobNo;
+String gender;
+String address;
+String city;
+int pinCode;
+String State;
+String country;

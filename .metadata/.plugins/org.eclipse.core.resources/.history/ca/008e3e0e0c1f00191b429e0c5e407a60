@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+You have successfully logged in
+<form  form align="left" name="form1" action="logout" method="post">
+<label>
+  <input name="submit2" type="submit" id="submit2" value="log out">
+  </label>
+</form>
+</body>
+</html>

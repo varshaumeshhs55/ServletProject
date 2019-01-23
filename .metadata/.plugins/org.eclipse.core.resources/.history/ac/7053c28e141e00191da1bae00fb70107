@@ -1,0 +1,10 @@
+<html>
+<head>
+<h1>Welcome</h1>
+</head>
+<body>
+<form action="login" method="post">
+<input type="text" name="email">
+</form>
+</body>
+</html>

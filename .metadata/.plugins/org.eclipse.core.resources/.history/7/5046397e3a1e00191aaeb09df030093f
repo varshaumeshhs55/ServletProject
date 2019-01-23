@@ -1,0 +1,30 @@
+package com.bridgelabz.servlets;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Registration extends HttpServlet {
+
+ @Override
+protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	RegistrationForm registrationForm=new RegistrationForm();
+	registrationForm.setFirstName(req.getParameter("First_Name"));
+	registrationForm.setLastName(req.getParameter("Last_Name"));
+	registrationForm.setBirthDay(req.getParameter("Birthday_Day"));
+	registrationForm.setBirthMonth(req.getParameter("Birthday_Month"));
+	registrationForm.setBirthYear(req.getParameter("Birthday_Year"));
+	registrationForm.setEmailId(req.getParameter("Email_Id"));
+	registrationForm.setmobileNumber(req.getParameter("Mobile_Number"));
+	registrationForm.setgender(req.getParameter("Gender"));
+	registrationForm.setaddress(req.getParameter("Address"));
+	registrationForm.setpinCode(req.getParameter("Pin_Code"));
+	registrationForm.setstate(req.getParameter("State"));
+	registrationForm.setCountry(req.getParameter("Country"));
+//	registrationForm.setFirstName(req.getParameter("Country"));
+	
+}
+}

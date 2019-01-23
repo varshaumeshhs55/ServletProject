@@ -1,0 +1,33 @@
+package com.bridgelabz.servlets;
+
+public class RegistrationForm {
+String firstName;
+String lastName;
+int dateOfBirth;
+String emailId;
+long mobNo;
+String gender;
+String address;
+String city;
+int pinCode;
+String State;
+String country;
+public RegistrationForm() {
+	super();
+	this.firstName = firstName;
+	lastName = lastName;
+	this.dateOfBirth = dateOfBirth;
+	this.emailId = emailId;
+	this.mobNo = mobNo;
+	this.gender = gender;
+	this.address = address;
+	this.city = city;
+	this.pinCode = pinCode;
+	State = state;
+	this.country = country;
+}
+
+
+
+
+}

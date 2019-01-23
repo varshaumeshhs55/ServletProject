@@ -1,0 +1,14 @@
+<html>
+<head>
+<h1>Welcome</h1>
+</head>
+<body>
+	<form action="login" method="post">
+		<input type="text" name="name"   placeholder="Full Name"> <br>
+		<input type="text" name="number" placeholder="Mobile Number"> <br>
+		 <input type="text" name="email" placeholder="Email"><br>
+		 <input type="password" name="password" placeholder="Password"><br> 
+		 <input type="submit" value="Login"><br>
+	</form>
+</body>
+</html>

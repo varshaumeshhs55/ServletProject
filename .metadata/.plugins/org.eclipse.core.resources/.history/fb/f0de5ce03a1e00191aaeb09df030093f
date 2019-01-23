@@ -1,0 +1,111 @@
+package com.bridgelabz.servlets;
+
+public class RegistrationForm {
+String firstName;
+String lastName;
+int birthDay;
+String birthMonth;
+int birthYear;
+String emailId;
+String mobNo;
+String gender;
+String address;
+String city;
+int pinCode;
+String State;
+String country;
+public RegistrationForm() {
+	super();
+	this.firstName = firstName;
+	this.lastName = lastName;
+	this.birthDay = birthDay;
+	this.birthMonth = birthMonth;
+	this.birthYear = birthYear;
+	this.emailId = emailId;
+	this.mobNo = mobNo;
+	this.gender = gender;
+	this.address = address;
+	this.city = city;
+	this.pinCode = pinCode;
+	State = State;
+	this.country = country;
+}
+public String getFirstName() {
+	return firstName;
+}
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+public String getLastName() {
+	return lastName;
+}
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+public int getBirthDay() {
+	return birthDay;
+}
+public void setBirthDay(int birthDay) {
+	this.birthDay = birthDay;
+}
+public String getBirthMonth() {
+	return birthMonth;
+}
+public void setBirthMonth(String birthMonth) {
+	this.birthMonth = birthMonth;
+}
+public int getBirthYear() {
+	return birthYear;
+}
+public void setBirthYear(int birthYear) {
+	this.birthYear = birthYear;
+}
+public String getEmailId() {
+	return emailId;
+}
+public void setEmailId(String emailId) {
+	this.emailId = emailId;
+}
+public String getMobNo() {
+	return mobNo;
+}
+public void setMobNo(String mobNo) {
+	this.mobNo = mobNo;
+}
+public String getGender() {
+	return gender;
+}
+public void setGender(String gender) {
+	this.gender = gender;
+}
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+public String getCity() {
+	return city;
+}
+public void setCity(String city) {
+	this.city = city;
+}
+public int getPinCode() {
+	return pinCode;
+}
+public void setPinCode(int pinCode) {
+	this.pinCode = pinCode;
+}
+public String getState() {
+	return State;
+}
+public void setState(String state) {
+	State = state;
+}
+public String getCountry() {
+	return country;
+}
+public void setCountry(String country) {
+	this.country = country;
+}
+}

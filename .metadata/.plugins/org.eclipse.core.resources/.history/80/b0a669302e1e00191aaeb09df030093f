@@ -1,0 +1,20 @@
+<html>
+<head>
+<h1>Welcome</h1>
+</head>
+<body>
+	<form action="login" method="post">
+	<p>
+	<label for="username">Username:</label><br>
+    <input type="text" name="username" placeholder=" Enter Username"><br>
+    </p>
+    <p>
+		 <label for="password">Password:</label><br>
+		 <input type="password" name="password" placeholder=" Enter Password"><br>
+		 
+	</p>
+	<input type="checkbox"><label for="checkbox">Keep me logged in</label> 
+		 <input type="submit" value="Login"><br>
+	</form>
+</body>
+</html>
