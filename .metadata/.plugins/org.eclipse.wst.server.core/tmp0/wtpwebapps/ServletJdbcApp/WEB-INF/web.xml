@@ -38,4 +38,13 @@
 		<servlet-name>logout</servlet-name>
 		<url-pattern>/logout</url-pattern>
 	</servlet-mapping>
+	<filter-mapping>
+        <filter-name>filterservlet</filter-name>
+        <url-pattern>/Registrationform</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>filterservlet</filter-name>
+        <filter-class>com.bridgelabz.filter.Validation</filter-class>
+    </filter>
+	
 </web-app>

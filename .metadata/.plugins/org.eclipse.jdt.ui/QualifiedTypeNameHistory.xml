@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.bridgelabz.model.RegistrationForm"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.bridgelabz.dbutil.MySQLConnUtils"/>
+<fullyQualifiedTypeName name="com.bridgelabz.model.UserInfo"/>
+<fullyQualifiedTypeName name="com.bridgelabz.dbutil.MySQLConnUtilsRegistration"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="javax.servlet.FilterConfig"/>
+<fullyQualifiedTypeName name="javax.servlet.Filter"/>
+</qualifiedTypeNameHistroy>
